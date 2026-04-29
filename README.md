@@ -29,6 +29,69 @@ It includes private chats, group conversations, and a friend request system, bui
 
 ---
 
+## 📸 Screenshots
+
+### 🏠 Landing Page
+Entry point of the application with navigation to authentication and core features.
+
+![Landing Page](./docs/landing-page.png)
+
+---
+
+### 📝 Signup Page
+User registration interface with secure account creation.
+
+![Signup](./docs/signup-page.png)
+
+---
+
+### 🔐 Login Page
+JWT-based authentication for secure user login.
+
+![Login](./docs/login-page.png)
+
+---
+
+### 📊 Dashboard
+Central hub showing chats, friends, and user interactions.
+
+![Dashboard](./docs/dashboard-page.png)
+
+---
+
+### 💬 Private Chat
+One-to-one real-time messaging using WebSockets.
+
+![Private Chat](./docs/private-chat-page.png)
+
+---
+
+### 👨‍👩‍👧‍👦 Group Chat
+Group messaging interface supporting multiple participants.
+
+![Group Chat](./docs/group-page.png)
+
+---
+
+### 🛠️ Group Details (Admin View)
+Admin controls for managing group members and settings.
+
+![Group Admin](./docs/group-details-admin.png)
+
+---
+
+### 👤 Group Details (User View)
+Standard user view with limited permissions in group.
+
+![Group User](./docs/group-details-user.png)
+
+---
+
+### 🤝 Friends Page
+Manage friend requests and connections within the platform.
+
+![Friends](./docs/friends-page.png)
+
 ##  Tech Stack
 
 ### Frontend
