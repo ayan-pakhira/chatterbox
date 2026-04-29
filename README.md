@@ -10,7 +10,7 @@ A full-stack real-time messaging platform supporting private and group communica
 
 ---
 
-## 📌 Overview
+##  Overview
 
 This project simulates modern messaging platforms by enabling real-time communication between users.
 
@@ -18,18 +18,18 @@ It includes private chats, group conversations, and a friend request system, bui
 
 ---
 
-## ✨ Features
+##  Features
 
-- 🔐 User Authentication (Login / Signup using JWT)
-- 👥 Friend Request System
-- 💬 One-to-One Private Chat
-- 👨‍👩‍👧‍👦 Group Creation & Group Chat
-- ⚡ Real-Time Messaging using WebSockets
-- 📡 Persistent Chat Storage with MongoDB
+-  User Authentication (Login / Signup using JWT)
+-  Friend Request System
+-  One-to-One Private Chat
+-  Group Creation & Group Chat
+-  Real-Time Messaging using WebSockets
+-  Persistent Chat Storage with MongoDB
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 ### Frontend
 - React  
@@ -49,7 +49,7 @@ It includes private chats, group conversations, and a friend request system, bui
 
 ---
 
-## 🏗️ System Architecture
+##  System Architecture
 
 - **React Frontend** communicates with backend APIs and WebSocket endpoints  
 - **Spring Boot Backend** handles authentication, chat logic, and messaging  
@@ -57,7 +57,7 @@ It includes private chats, group conversations, and a friend request system, bui
 - **MongoDB** stores users, chats, and messages  
 - **Redis** is used for handling temporary data such as email flows  
 
-### 🔄 Flow
+###  Flow
 
 1. User logs in / signs up  
 2. Sends friend request → accepted by another user  
@@ -67,7 +67,7 @@ It includes private chats, group conversations, and a friend request system, bui
 
 ---
 
-## 🔗 API Endpoints (Sample)
+##  API Endpoints (Sample)
 
 ### Authentication
 - POST /public/register-user
@@ -83,7 +83,7 @@ It includes private chats, group conversations, and a friend request system, bui
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 chat-application/
 │  
@@ -94,7 +94,18 @@ chat-application/
 
 ---
 
-## ⚙️ Local Setup
+##  Project Status
+
+This project is currently under active development.
+
+Upcoming improvements include:
+- Enhanced UI/UX
+- Message delivery status (seen/delivered)
+- Media sharing (images/files)
+- Notification system
+- Deployment with Docker & AWS
+
+##  Local Setup
 
 ### Clone Repository
 ```bash
