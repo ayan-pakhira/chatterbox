@@ -1,0 +1,248 @@
+
+
+/* Base styles */
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #89f7fe, #66a6ff);
+    color: #333;
+}
+
+.clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.hidden {
+    display: none;
+}
+
+/* Form Controls */
+.form-control {
+    width: 100%;
+    min-height: 38px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding-left: 10px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+input {
+    outline: none;
+}
+
+h1, h2 {
+    margin: 20px 0;
+}
+
+h1 {
+    font-size: 2em;
+    color: #333;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+button {
+    border: none;
+    font-size: 15px;
+    padding: 0.6rem 1.2rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button.primary {
+    background-color: #007bff;
+    color: #fff;
+}
+
+button.primary:hover {
+    background-color: #0056b3;
+}
+
+button.accent {
+    background-color: #28a745;
+    color: #fff;
+}
+
+button.accent:hover {
+    background-color: #1e7e34;
+}
+
+#username-page {
+    text-align: center;
+}
+
+.username-page-container {
+    background: #fff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    width: 90%;
+    max-width: 500px;
+    margin: auto;
+    margin-top: 10vh;
+    padding: 35px 55px;
+}
+
+.username-submit {
+    margin-top: 10px;
+}
+
+/* Chat Page */
+#chat-page {
+    position: relative;
+    height: 100%;
+}
+
+.chat-container {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    height: calc(100% - 60px);
+    max-height: 600px;
+    display: flex;
+    flex-direction: column;
+}
+
+.chat-header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.chat-header h2 {
+    margin: 0;
+    font-weight: 500;
+}
+
+.connecting {
+    text-align: center;
+    color: #666;
+    padding: 10px 0;
+}
+
+#chat-page ul {
+    list-style: none;
+    padding: 20px;
+    margin: 0;
+    overflow-y: auto;
+    flex-grow: 1;
+    background: #f7f7f7;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+}
+
+#chat-page ul li {
+    margin-bottom: 15px;
+    padding: 10px;
+    background-color: #e2f0ff;
+    border-radius: 5px;
+}
+
+#chat-page ul li:nth-child(even) {
+    background-color: #ffe2e2;
+}
+
+#chat-page ul li p {
+    margin: 0;
+}
+
+.event-message {
+    text-align: center;
+    color: #888;
+    font-size: 14px;
+}
+
+.chat-message {
+    position: relative;
+    padding-left: 60px;
+}
+
+.chat-message i {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 40px;
+    height: 40px;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.chat-message span {
+    font-weight: bold;
+    color: #333;
+}
+
+.chat-message p {
+    color: #555;
+}
+
+#messageForm {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#messageForm .input-group input {
+    flex: 1;
+    min-width: 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+#messageForm .input-group button {
+    margin-left: 10px;
+    background-color: #28a745;
+    color: #fff;
+    border-radius: 4px;
+}
+
+#messageForm .input-group button:hover {
+    background-color: #1e7e34;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    .chat-container {
+        margin: 10px;
+        height: calc(100% - 20px);
+    }
+
+    .username-page-container {
+        padding: 20px;
+    }
+
+    #chat-page ul {
+        height: calc(100% - 160px);
+    }
+}
