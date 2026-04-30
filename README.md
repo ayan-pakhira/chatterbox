@@ -172,7 +172,8 @@ Upcoming improvements include:
 
 ### Clone Repository
 ```bash
-git clone https://github.com/your-username/chat-application.git
+git clone - 
+https://github.com/ayan-pakhira/chatterbox.git
 cd backend
 mvn spring-boot:run
 
